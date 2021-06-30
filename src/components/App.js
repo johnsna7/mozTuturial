@@ -42,7 +42,7 @@ export default function App() {
     <div>
       <p>
         {format(addDays(new Date(), 1), 'EEEE d-MMM')} there will be{' '}
-        <strong>{results.length}</strong> near misses
+        <strong>{results.length}</strong> near misses. Oh snap!
       </p>
       <hr></hr>
       {results
